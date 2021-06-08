@@ -200,9 +200,9 @@ for (r in 1:length(article_id)){
       }
   }
 
-  for (i in length(version):1){
-    version[i] <- version_count2 - version[i]
-  }
+  #for (i in length(version):1){
+  #  version[i] <- version_count2 - version[i]
+  #}
 
   for (i in 1:2){
     dates[i] <- as.Date(timelapse[i], "%d %B %Y")
